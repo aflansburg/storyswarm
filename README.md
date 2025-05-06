@@ -1,4 +1,6 @@
 ![Run Tests](https://github.com/aflansburg/storyswarm/.github/workflows/test.yml)
+![Run Linter](https://github.com/aflansburg/storyswarm/.github/workflows/lint.yml)
+![Run Typechecking](https://github.com/aflansburg/storyswarm/.github/workflows/typecheck.yml)
 
 # storyswarm backend
 
