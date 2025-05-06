@@ -1,6 +1,8 @@
-![Run Tests](https://github.com/aflansburg/storyswarm/.github/workflows/test.yml)
-![Run Linter](https://github.com/aflansburg/storyswarm/.github/workflows/lint.yml)
-![Run Typechecking](https://github.com/aflansburg/storyswarm/.github/workflows/typecheck.yml)
+![Run Tests](https://github.com/aflansburg/storyswarm/actions/workflows/test.yml/badge.svg)
+
+![Run Linter](https://github.com/aflansburg/storyswarm/actions/workflows/lint.yml/badge.svg)
+
+![Run Typechecking](https://github.com/aflansburg/storyswarm/actions/workflows/typecheck.yml/badge.svg)
 
 # storyswarm backend
 
