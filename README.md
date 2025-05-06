@@ -22,6 +22,9 @@ Hoping to build a simple frontend for this as well in the near future.
 6. `uv run app.py` (or use the included `launch.json` if debugging in vscode)
 7. Profit 💰
 
+## Running tests
+`PYTHONPATH=src uv run pytest`
+
 ## Making a call to generate a story
 
 ### Example JSON payload to generate a Prologue

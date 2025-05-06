@@ -53,5 +53,14 @@ class AppConfig:
         self.uid = self.__dict__["uid"]
 
     def __init__(self):
+        self.__dict__["_frozen"] = False
         self.__dict__["defaults"] = {}
         self.__load_config()
+        self.__dict__["_frozen"] = True
+
+    def __setattr__(self, key, value):
+        if getattr(self, "_frozen", False):
+            raise AttributeError(
+                f"Cannot modify frozen AppConfig instance {self.uid}. Attempted to set {key} to {value}."
+            )
+        super().__setattr__(key, value)
