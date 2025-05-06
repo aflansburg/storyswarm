@@ -9,7 +9,7 @@ if os.path.exists(".env.local"):
     load_dotenv(dotenv_path=".env.local")
 
 from src.config import AppConfig, get_default_logger
-from src.storyparts import Prologue, Chapter, Epilogue
+from src.storyparts import Prologue
 from src.storyparts.agents import StoryPartAgent
 from src.storyparts.models import StoryPartConfig
 
