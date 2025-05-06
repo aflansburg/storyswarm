@@ -1,3 +1,5 @@
+![Run Tests](https://github.com/aflansburg/storyswarm/.github/workflows/test.yml)
+
 # storyswarm backend
 
 This is a simple [FastAPI](https://fastapi.tiangolo.com/) backend that leverages [Pydantic AI](https://ai.pydantic.dev/) to write a story, part by part, with special purpose agents.
